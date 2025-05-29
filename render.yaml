@@ -6,4 +6,4 @@ services:
     plan: free
     branch: main
     dockerContext: .
-    dockerComposeFilePath: docker-compose.ym
+    dockerComposeFilePath: docker-compose.yml
