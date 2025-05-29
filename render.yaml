@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: k-tech-panel
+    env: docker
+    repo: https://github.com/Nerdk-tech/CREATE-PANEL-
+    plan: free
+    branch: main
+    dockerContext: .
+    dockerComposeFilePath: docker-compose.ym
